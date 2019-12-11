@@ -3,7 +3,7 @@ My First Rest API based CRUD Application with Node.js, Express, React.js and MyS
 
 ## Development server
 
-Run `npm run dev` for a dev server using NodeMon. Navigate to `http://localhost:5000/`. The app will automatically reload if you change any of the source files.
+Navigate to server directory Run `cd server` then Run `npm run dev` for a dev server using NodeMon. Navigate to `http://localhost:5000/`. The app will automatically reload if you change any of the source files.
 
 ## Build
 
