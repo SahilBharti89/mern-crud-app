@@ -19,10 +19,12 @@ app.use((req, res, next) => {
 });
   
 // force: true will drop the table if it already exists
-db.sync({force: true}).then(() => {
-  console.log('Drop and Resync with { force: true }');
+// db.sync({force: true}).then(() => {
+//   console.log('Drop and Resync with { force: true }');
+// });
+db.sync().then(() => {
+    console.log('Database Syncing start');
 });
-
 // importing route employeeRoutes
 const employeeRouter = require('./routes/employeeRoutes');
 

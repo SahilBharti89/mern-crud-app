@@ -1,11 +1,12 @@
 const controllers = {};
 
 // importing model and database
+const db = require('../config/database');
 const Role = require('../Models/Role');
 const Employee = require('../Models/Employee');
 
 // to migrate in case you don't have tables
-// db.sync();
+db.sync();
 
 controllers.delete = (req, res) => {
 
